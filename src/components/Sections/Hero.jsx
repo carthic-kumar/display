@@ -49,6 +49,15 @@ export default function Hero() {
           animate={isInView ? 'visible' : 'hidden'}
           className="text-center max-w-5xl mx-auto"
         >
+          {/* Profile Image */}
+          <motion.div variants={itemVariants} className="mb-8 flex justify-center">
+            <img
+              src="/profile.jpg"
+              alt="Carthic Kumar"
+              className="w-36 h-36 rounded-full object-cover border-4 border-cyber-blue/50 shadow-lg shadow-cyber-blue/20"
+            />
+          </motion.div>
+
           {/* Subtitle */}
           <motion.div variants={itemVariants} className="mb-6">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyber-blue/10 border border-cyber-blue/30 text-cyber-blue text-sm font-medium">
