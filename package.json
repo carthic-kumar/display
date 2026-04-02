@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "verify": "node verify.js",
-    "predeploy": "VITE_BASE=/display/ npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
