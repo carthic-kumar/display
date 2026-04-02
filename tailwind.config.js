@@ -8,16 +8,16 @@ export default {
     extend: {
       colors: {
         cyber: {
-          blue: '#00d4ff',
-          purple: '#a855f7',
-          pink: '#ec4899',
-          dark: '#0a0a0f',
-          surface: '#12121a',
+          blue: '#0ea5e9',
+          purple: '#8b5cf6',
+          pink: '#d946ef',
+          dark: '#020617',
+          surface: '#0f172a',
         },
         engineering: {
-          steel: '#6b7280',
+          steel: '#64748b',
           titanium: '#94a3b8',
-          carbon: '#1f2937',
+          carbon: '#1e293b',
         },
       },
       fontFamily: {

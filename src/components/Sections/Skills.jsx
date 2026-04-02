@@ -83,7 +83,7 @@ export default function Skills() {
           className="text-center mb-16"
         >
           <h2 className="section-heading">Technical Expertise</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Core competencies developed through academic rigor and industry experience
           </p>
         </motion.div>
@@ -223,7 +223,7 @@ export default function Skills() {
               {/* Center text */}
               <div className="text-center">
                 <div className="text-4xl font-bold gradient-text">{allSkills.length}+</div>
-                <div className="text-sm text-slate-400">Core Skills</div>
+                <div className="text-sm text-slate-300">Core Skills</div>
               </div>
             </div>
           </div>

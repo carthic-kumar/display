@@ -33,10 +33,9 @@ export default function About() {
     <section
       ref={sectionRef}
       id="about"
-      className="relative py-24 md:py-32 bg-cyber-dark overflow-hidden"
+      className="relative py-24 md:py-32 bg-cyber-surface overflow-hidden"
     >
-      {/* Background accent */}
-      <div className="absolute inset-0 bg-gradient-to-b from-cyber-dark via-slate-900/10 to-cyber-dark" />
+      <div className="absolute inset-0 bg-gradient-to-b from-cyber-surface via-cyber-dark/20 to-cyber-surface" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -47,7 +46,7 @@ export default function About() {
           className="text-center mb-16"
         >
           <h2 className="section-heading">About Me</h2>
-          <p className="text-lg text-slate-400 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-300 max-w-3xl mx-auto">
             A mechanical engineer specializing in advanced simulation, verification,
             and design optimization. Combining deep technical expertise with
             practical manufacturing knowledge.
@@ -87,7 +86,7 @@ export default function About() {
               </p>
             </div>
             <div className="space-y-4">
-              <div className="p-4 rounded-lg bg-slate-800/30 border border-slate-700/30">
+              <div className="p-4 rounded-lg bg-cyber-dark/40 border border-slate-700/30">
                 <h4 className="text-cyber-blue font-semibold mb-2">Core Expertise</h4>
                 <ul className="space-y-2 text-sm text-slate-400">
                   <li>• Structural FEA (Linear & Non-linear)</li>
@@ -97,13 +96,13 @@ export default function About() {
                   <li>• Design for Manufacturing</li>
                 </ul>
               </div>
-              <div className="p-4 rounded-lg bg-slate-800/30 border border-slate-700/30">
+              <div className="p-4 rounded-lg bg-cyber-dark/40 border border-slate-700/30">
                 <h4 className="text-cyber-purple font-semibold mb-2">Tech Stack</h4>
                 <div className="flex flex-wrap gap-2">
                   {['Ansys', 'Fluent', 'Discovery', 'Python', 'MATLAB', 'CATIA', 'SolidWorks'].map((tech) => (
                     <span
                       key={tech}
-                      className="px-2 py-1 text-xs bg-slate-800/50 border border-slate-700/30 rounded text-slate-300"
+                      className="px-2 py-1 text-xs bg-slate-800/40 border border-slate-700/30 rounded text-slate-300"
                     >
                       {tech}
                     </span>

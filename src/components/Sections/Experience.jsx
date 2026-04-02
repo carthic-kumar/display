@@ -94,7 +94,7 @@ export default function Experience() {
           className="text-center mb-16"
         >
           <h2 className="section-heading">Experience & Education</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             A journey through verification engineering, design innovation, and academic excellence
           </p>
         </motion.div>
@@ -144,7 +144,7 @@ export default function Experience() {
                           {exp.role}
                         </h3>
                         <p className={`text-${exp.color} font-medium mb-2`}>{exp.company}</p>
-                        <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
+                        <div className="flex items-center gap-2 text-sm text-slate-300 mb-4">
                           <Calendar size={14} />
                           <span>{exp.period}</span>
                         </div>

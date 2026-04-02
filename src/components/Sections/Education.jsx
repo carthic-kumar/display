@@ -69,7 +69,7 @@ export default function Education() {
           className="text-center mb-16"
         >
           <h2 className="section-heading">Education</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Academic foundation built at top-tier engineering institutions
           </p>
         </motion.div>
@@ -94,7 +94,7 @@ export default function Education() {
                     {edu.institution}
                   </h3>
                   <p className={`text-${edu.color} font-medium`}>{edu.degree} in {edu.field}</p>
-                  <div className="flex items-center gap-4 text-sm text-slate-400 mt-2">
+                  <div className="flex items-center gap-4 text-sm text-slate-300 mt-2">
                     <span className="flex items-center gap-1">
                       <Calendar size={14} />
                       {edu.period}

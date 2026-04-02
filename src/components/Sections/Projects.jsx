@@ -105,7 +105,7 @@ export default function Projects() {
           className="text-center mb-16"
         >
           <h2 className="section-heading">Featured Projects</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Key engineering initiatives that demonstrate expertise in simulation, design, and verification
           </p>
         </motion.div>
@@ -131,7 +131,7 @@ export default function Projects() {
                     <span className={`inline-block px-3 py-1 text-xs font-medium rounded-full bg-${project.color}/10 text-${project.color} border border-${project.color}/30 mb-2`}>
                       {project.category}
                     </span>
-                    <p className="text-xs text-slate-500">{project.period}</p>
+                    <p className="text-xs text-slate-5000">{project.period}</p>
                   </div>
                 </div>
 
@@ -148,7 +148,7 @@ export default function Projects() {
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-2 py-1 text-xs bg-slate-800/50 border border-slate-700/30 rounded text-slate-400"
+                      className="px-2 py-1 text-xs bg-slate-800/50 border border-slate-700/30 rounded text-slate-300"
                     >
                       {tech}
                     </span>
@@ -168,7 +168,7 @@ export default function Projects() {
                       <div className="pt-4 border-t border-slate-700/50 mt-4">
                         <div className="mb-4">
                           <h4 className="text-sm font-semibold text-slate-300 mb-2">Overview</h4>
-                          <p className="text-sm text-slate-400 whitespace-pre-line leading-relaxed">
+                          <p className="text-sm text-slate-300 whitespace-pre-line leading-relaxed">
                             {project.fullDescription}
                           </p>
                         </div>
@@ -191,7 +191,7 @@ export default function Projects() {
 
                 {/* Action */}
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="text-xs text-slate-500 flex items-center gap-1">
+                  <span className="text-xs text-slate-5000 flex items-center gap-1">
                     Click to {expandedCard === project.id ? 'collapse' : 'expand details'}
                   </span>
                   <ChevronRight

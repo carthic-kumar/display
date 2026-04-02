@@ -37,13 +37,11 @@ export default function App() {
 
       {/* Hero Section with 3D Background */}
       <section id="hero" className="relative min-h-screen">
-        <div className="absolute inset-0 z-0">
-          {heroLoaded ? (
-            <HeroScene />
-          ) : (
-            <div className="w-full h-full bg-gradient-to-b from-cyber-dark via-slate-900 to-cyber-dark" />
-          )}
-        </div>
+        {heroLoaded ? (
+          <HeroScene />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-b from-cyber-dark via-slate-900 to-cyber-dark" />
+        )}
         <Hero />
       </section>
 
